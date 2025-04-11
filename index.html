@@ -1,101 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meu Portfólio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        * {
-            scroll-behavior: smooth;
-        }
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #fbeee6;
-            color: #000000;
-        }
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
-        nav {
-            background-color: #e8cfc2;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .nav-link {
-            color: #000 !important;
-            font-weight: 500;
-        }
-
-        .nav-link:hover {
-            color: #7d5a50 !important;
-        }
-
-        section {
-            padding: 80px 0;
-        }
-
-        footer {
-            background-color: #e8cfc2;
-            color: #000;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#inicio">Meu Portfólio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <a class="navbar-brand text-white fw-bold" href="#">Dhay</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div style="height: 70px;"></div>
+
     <section id="inicio" class="container text-center">
-        <h1 class="fw-bold">Olá, eu sou [Seu Nome]</h1>
-        <p class="lead">Desenvolvedor(a) iniciante apaixonado(a) por tecnologia.</p>
-        <div class="mt-3">
-            <a href="#contato" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Fale comigo</a>
-        </div>
+        <h1 class="fw-bold">Daiane Moura</h1>
+        <p class="lead">Social Media iniciante apaixonada por Midias Digitais.</p>
+        <a href="#contato" class="btn btn-primary mt-3"><i class="fas fa-paper-plane"></i> Fale comigo</a>
     </section>
 
     <section id="sobre" class="container">
-        <h2 class="fw-bold">Sobre Mim</h2>
-        <p>Sou um estudante de desenvolvimento web, aprendendo HTML, CSS, JavaScript e React. Gosto de criar projetos
-            que me desafiem e me ajudem a evoluir como programador(a).</p>
+        <h2 class="fw-bold">Quem é Daiane Moura ?</h2>
+        <p>Daiane Moura, 35 anos, é uma mulher determinada, alegre e transparente, com uma personalidade marcante de geminiana. Mãe dedicada do Enzo, de 10 anos, e empreendora de sucesso, ela transforma desafios em oportunidades. Disvorciada, Daiane encontrou sua força na independêcia e no desejo constante de crescer e evoluir.<br>Estudante de marketing e estrategista em negócios, ela combina seu talento para comunicação e visão estratégica para criar soluções impactantes no universo do marketing e social media. Sempre direta e objetiva, Daiane constrói parcerias de confiança, mostrando que autenticidade e paixão são os pilares do seu trabalho.</p>
     </section>
 
     <section id="projetos" class="container">
-        <h2 class="fw-bold">Projetos</h2>
+        <h2 class="fw-bold">Entenda como funciona nosso processo</h2>
         <div class="row mt-4">
             <div class="col-md-6 mb-4">
                 <div class="card project-card">
                     <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-code"></i> Projeto 1</h5>
-                        <p class="card-text">Um projeto simples feito para praticar Bootstrap e JavaScript.</p>
-                        <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        <h5 class="card-title">Passo 1: Procedimento padrão</h5>
+                        <p class="card-text">Pagamento da primeira mensalidadem<br>Assinatura do contrato<br>Envio do briefing (formulário) para que eu possa entender mais sobre seu negócio.</p>
                     </div>
                 </div>
             </div>
@@ -103,9 +62,40 @@
             <div class="col-md-6 mb-4">
                 <div class="card project-card">
                     <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-laptop-code"></i> Projeto 2</h5>
-                        <p class="card-text">Aplicativo feito com HTML e CSS responsivo.</p>
-                        <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        <h5 class="card-title">Passo 2: Alinhamento</h5>
+                        <p class="card-text">Discutiremos quaisquer dúvidas que tenham ficado entre ambas as partes para que sejamos mais assertivos no desenvolvimento do projeto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 3: Produção</h5>
+                        <p class="card-text">Após o alinhamento, entramos na fase de pesquisa e criação dos conteúdos. Até 7 dias úteis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 4: Apresentação</h5>
+                        <p class="card-text">Os posts assim como copy (quando contratado)serão enviados por email para avaliação do cliente e/ou aprovação.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 5: Alterações</h5>
+                        <p class="card-text">Você terá direito de fazer até 2 alterações gratuitas, desde que não haja grandes mudanças no conceito apresentado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passo 6: Procedimento padrão</h5>
+                        <p class="card-text">Após aprovação o conteúdos será programado para a postagem nas redes sociais.</p>
                     </div>
                 </div>
             </div>
@@ -115,15 +105,16 @@
     <section id="contato" class="container">
         <h2 class="fw-bold">Contato</h2>
         <p>Você pode me encontrar nas redes sociais ou enviar uma mensagem:</p>
-        <div class="d-flex gap-3 fs-4">
-            <a href="#" class="text-dark"><i class="fab fa-github"></i></a>
-            <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+        <div class="d-flex gap-4 fs-4">
+            <a href="#" class="text-light"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
         </div>
     </section>
+
     <footer>
         <p>&copy; 2025 - Desenvolvido por [Seu Nome]. Todos os direitos reservados.</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

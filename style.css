@@ -1,0 +1,65 @@
+:root {
+    --fundo: #1c1c1c;
+    --texto: #fbeee6;
+    --nude-card: #d8a48f;
+    --nude-botao: #b08968;
+    --nude-hover: #eac8b1;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--texto);
+    background: linear-gradient(rgba(28, 28, 28, 0.9), rgba(28, 28, 28, 0.9)),
+        url('dai.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+nav {
+    background-color: #2a2a2a;
+}
+
+.nav-link {
+    color: var(--texto) !important;
+}
+
+.nav-link:hover {
+    color: var(--nude-hover) !important;
+}
+
+.project-card {
+    background-color: var(--nude-card);
+    color: #1c1c1c;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.btn-primary {
+    background-color: var(--nude-botao);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--nude-hover);
+    color: #1c1c1c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a2a2a;
+    color: var(--texto);
+    margin-top: 40px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
