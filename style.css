@@ -33,6 +33,17 @@ nav {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
 }
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 20px;
+}
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
 
 .btn-primary {
     background-color: var(--nude-botao);
