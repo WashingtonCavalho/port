@@ -66,6 +66,10 @@ h2 {
     font-weight: bold;
 }
 
+.icone:hover{
+    color: var(--nude-botao) ;
+}
+
 .card-custom {
     background-color: var(--nude-card);
     border: none;
