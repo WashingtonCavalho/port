@@ -12,6 +12,11 @@ body {
     background: linear-gradient(rgba(28, 28, 28, 0.9), rgba(28, 28, 28, 0.9)),
         url('dai.jpg') no-repeat center top;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.estaco-navbar {
+    height: 70px;
 }
 
 nav {
@@ -26,28 +31,14 @@ nav {
     color: var(--nude-hover) !important;
 }
 
-.project-card {
-    background-color: var(--nude-card);
-    color: #1c1c1c;
-    border: none;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s;
-}
-.card-title{
-    font-size: 25px;
-    font-weight: 600;
-}
-.card-text{
+.paragraf {
     font-size: 20px;
 }
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  }
 
 .btn-primary {
     background-color: var(--nude-botao);
     border: none;
+    transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
@@ -73,4 +64,17 @@ h2 {
 
 .nav-link.active {
     font-weight: bold;
+}
+
+.card-custom {
+    background-color: var(--nude-card);
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
