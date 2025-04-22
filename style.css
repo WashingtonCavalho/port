@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--texto);
-    background: linear-gradient(rgba(28, 28, 28, 0.9), rgba(28, 28, 28, 0.9)),
+    background: linear-gradient(rgba(28, 28, 28, 0.9), rgba(28, 28, 28, 0.5)),
         url('dai.jpg') no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
