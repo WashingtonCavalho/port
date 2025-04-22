@@ -15,11 +15,11 @@ body {
     background-attachment: fixed;
 }
 
-.princ-title{
-margin-top: 20px;
+.princ-title {
+    margin-top: 20px;
 }
 
-.estaco-navbar {
+.espaco-navbar {
     height: 70px;
 }
 
@@ -37,6 +37,7 @@ nav {
 
 .paragraf {
     font-size: 20px;
+    line-height: 1.7;
 }
 
 .btn-primary {
@@ -70,8 +71,8 @@ h2 {
     font-weight: bold;
 }
 
-.icone:hover{
-    color: var(--nude-botao) ;
+.icone:hover {
+    color: var(--nude-botao);
 }
 
 .card-custom {
@@ -85,4 +86,22 @@ h2 {
 .card-custom:hover {
     transform: scale(1.03);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.listrec {
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.linghtcolor {
+    margin: 10px;
+    color: var(--fundo);
+}
+
+.servicos-estilo {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(216, 164, 143, 0.07));
+    padding: 60px 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
 }
